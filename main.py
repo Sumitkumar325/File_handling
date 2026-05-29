@@ -9,6 +9,7 @@ f2.write("Hey I am from Karachi")
 f2.close()
 
 # add the additional content in sumit1.txt
+# it will open the file in append mode then additional text will be added and previous one will be no removed.
 f=open("sumit1.txt","a")
 f.write("\nStudent at DSU")
 f.close()
